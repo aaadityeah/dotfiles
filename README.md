@@ -13,9 +13,10 @@ Remaps Caps Lock to:
    brew install --cask hammerspoon
    ```
 
-2. Clone this repo:
+2. Clone this repo and symlink the Hammerspoon config:
    ```bash
-   git clone https://github.com/aaadityeah/dotfiles.git ~/.hammerspoon
+   git clone https://github.com/aaadityeah/dotfiles.git ~/personal/src/dotfiles
+   ln -s ~/personal/src/dotfiles/hammerspoon ~/.hammerspoon
    ```
 
 3. Open Hammerspoon:
